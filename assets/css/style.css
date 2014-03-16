@@ -1,0 +1,46 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: calibri,tahoma,arial;
+	font-size: 10px;
+	background-color: #f0f0f0;
+}
+
+@font-face{
+	font-family: 'Hero';
+	src: url(../fonts/Hero_Light.otf);
+}
+
+.all{
+	margin: 0 auto;max-width: 1000px;
+}
+
+/*Backgrounds*/
+.back-header{height: 250px;background-color: #222222;}
+.back-nav{background-color: #ed3242;width: 100%;overflow: hidden;}
+.back-contt{background-color: #fff;}
+.back-footer{background-color: #222222;clear: both;width: 100%;padding: 20px 0 20px 0;}
+
+
+/*Topo*/
+
+.header{width:100%;height: 100%;;}
+
+.brand{margin: 0 auto;width: 200px;padding-top: 30px;}
+.brand img{width: 100%;}
+
+/*Menu*/
+
+.nav{max-width: 560px;height: 50px;margin: 0 auto;text-align: center;}
+.nav ul{padding: 0;margin: 0; list-style: none;}
+.nav ul li{float: left;font-size: 2.0em;text-transform: uppercase;}
+.nav ul li a{padding: 15px 15px 10px 15px;border-bottom: 0px solid #222222; color: #fff;text-decoration: none;display: inline-block;transition: 0.3s;-webkit-transition:0.3s;-o-transition:0.3s;-ms-transition:0.3s;-moz-transition:0.3s;}
+.nav ul li a:hover{background-color: #d61928;padding-bottom: 6px; border-bottom: 5px solid #222222;}
+
+/*Conteúdo*/
+.contt{width: 100%;padding: 30px 20px 30px 20px;}
+
+.tt-h1{font-size: 4.0em; color: #ed3242;font-family: 'Hero';}
+
+.footer{width: 100%;height: 100%;padding: 0px 20px 0px 20px;}
+.copyright{font-size: 1.4em;color: #fff;}
